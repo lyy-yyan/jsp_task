@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>myservlet.control.HandleLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>login</servlet-name>
+		<url-pattern>/helpLogin</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>conpages</servlet-name>
+		<servlet-class>myservlet.control.ConPages</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>conpages</servlet-name>
+		<url-pattern>/conpages</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addnews</servlet-name>
+		<servlet-class>myservlet.control.AddNews</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>addnews</servlet-name>
+		<url-pattern>/addnews</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>delnews</servlet-name>
+		<servlet-class>myservlet.control.DelNews</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>delnews</servlet-name>
+		<url-pattern>/delnews</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>updatenews</servlet-name>
+		<servlet-class>myservlet.control.UpdateNews</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>updatenews</servlet-name>
+		<url-pattern>/updatenews</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>upfile</servlet-name>
+		<servlet-class>myservlet.control.UpFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>upfile</servlet-name>
+		<url-pattern>/upfile</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>caopower</servlet-name>
+		<servlet-class>myservlet.control.CaoPower</servlet-class>
+	</servlet>
+	<servlet-mapping>
+ 		<servlet-name>caopower</servlet-name>
+		<url-pattern>/caopower</url-pattern>	
+	</servlet-mapping>
+
+</web-app>

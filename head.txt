@@ -1,0 +1,12 @@
+ <%@ page contentType="text/html;charset=GB2312" language="java" %>
+<center>
+	<font size=6>
+		<br><br>
+		<a href="updatenews.jsp">更新新闻</a>
+		<a href="addnews.jsp">添加新闻</a>
+		<a href="delnews.jsp">删除新闻</a>
+		<font size=3>
+			<a href="indexf.jsp">返回主页</a>   <a href="showPower.jsp">返回管理页面</a>
+		</font>
+	</font>
+</center>
